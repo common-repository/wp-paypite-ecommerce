@@ -1,0 +1,365 @@
+/* GENERAL */
+
+.paypite-text-purple
+{
+	color:#720792;
+}
+
+.paypite-text-red
+{
+	color:red;
+}
+
+.paypite-text-green
+{
+	color:#00bffd;
+}
+
+.paypite-text-bold
+{
+	font-weight:bold;
+}
+
+.paypite-text-center
+{
+	text-align:center;
+}
+
+.paypite-mt-1
+{
+	margin-top:10px;
+}
+
+.paypite-mb-1
+{
+	margin-bottom:10px;
+}
+
+.paypite-ml-1
+{
+	margin-left:10px;
+}
+
+.paypite-mr-1
+{
+	margin-right:10px;
+}
+
+.paypite-pb-1
+{
+	padding-bottom:10px;
+}
+
+/* END OF GENERAL */
+
+
+
+
+
+/* ADMIN */
+
+/** LIST */
+
+input.paypite-shortcode
+{
+	margin-top:-5px;
+	text-align:center;
+}
+
+.paypite-list table .th-description
+{
+	width:180px;
+}
+
+.paypite-list table .th-callback-url
+{
+	width:130px;
+}
+
+.paypite-dashicon.dashicons-editor-help
+{
+	margin-top:-1px;
+	margin-left:2px;
+	cursor:pointer;
+}
+
+/** END OF LIST */
+
+
+
+
+
+/** ADMIN FORMS */
+
+.paypite-form label
+{
+	font-weight:bold;
+}
+
+.paypite-form textarea
+{
+	height:75px
+}
+
+.paypite-form input:not([type="submit"]),
+.paypite-form textarea
+{
+	width:100%;
+}
+
+.paypite-form label,
+.paypite-form input
+{
+	display:block;
+}
+
+.paypite-form.insert-update
+{
+	width:225px;
+}
+
+.paypite-form.insert-update .price
+{
+	display: flex;
+}
+
+.paypite-form.settings
+{
+	width:300px;
+}
+
+.paypite-form input[type="submit"],
+.paypite-export a
+{
+	background-color:#720792;
+    color:white;
+    border:none;
+    padding:5px 10px;
+	cursor:pointer;
+	font-weight:bold;
+    text-decoration:none;
+}
+
+/** END OF ADMIN FORMS */
+
+
+
+
+
+/** FAQ */
+
+.paypite-faq
+{
+	width:800px;
+}
+
+.paypite-faq h3
+{
+	margin-top:25px;
+}
+
+/** END OF FAQ */
+
+/* END OF ADMIN */
+
+
+
+
+
+/* FRONT-END */
+
+/** OUTPUT */
+
+.paypite-wrapper .paypite-infos
+{
+	margin-bottom:10px;
+}
+
+.paypite-wrapper .paypite-infos label
+{
+	display:inline;
+	margin-right:7px;
+	font-weight:bold;
+}
+
+.paypite-wrapper .paypite-button a,
+.paypite-wrapper .paypite-button a:focus,
+.paypite-wrapper .paypite-button a:hover
+{
+	background-color:#720792;
+    color:white;
+    font-weight:bold;
+    padding:10px 25px;
+    border-radius:30px;
+    box-shadow:none;
+}
+
+/** END OF OUTPUT */
+
+/* END OF FRONT-END */
+
+
+
+
+/* BOOTSTRAP-LIKE */
+
+/** TABLE */
+
+.table {
+ width: 100%;
+ max-width: 100%;
+ margin-bottom: 1rem;
+}
+.table tbody tr:first-of-type {
+ background-color: rgba(0, 0, 0, 0.05);
+}
+.table th,
+.table td {
+ padding: 0.75rem;
+ vertical-align: top;
+ border-top: 1px solid #eceeef;
+}
+.table thead th {
+ vertical-align: bottom;
+ border-bottom: 2px solid #eceeef;
+}
+.table tbody + tbody {
+ border-top: 2px solid #eceeef;
+}
+.table .table {
+ background-color: #fff;
+}
+.table-sm th,
+.table-sm td {
+ padding: 0.3rem;
+}
+.table-bordered {
+ border: 1px solid #eceeef;
+}
+.table-bordered th,
+.table-bordered td {
+ border: 1px solid #eceeef;
+}
+.table-bordered thead th,
+.table-bordered thead td {
+ border-bottom-width: 2px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+ background-color: rgba(0, 0, 0, 0.05);
+}
+.table-hover tbody tr:hover {
+ background-color: rgba(0, 0, 0, 0.075);
+}
+.table-active,
+.table-active > th,
+.table-active > td {
+ background-color: rgba(0, 0, 0, 0.075);
+}
+.table-hover .table-active:hover {
+ background-color: rgba(0, 0, 0, 0.075);
+}
+.table-hover .table-active:hover > td,
+.table-hover .table-active:hover > th {
+ background-color: rgba(0, 0, 0, 0.075);
+}
+.table-success,
+.table-success > th,
+.table-success > td {
+ background-color: #dff0d8;
+}
+.table-hover .table-success:hover {
+ background-color: #d0e9c6;
+}
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+ background-color: #d0e9c6;
+}
+.table-info,
+.table-info > th,
+.table-info > td {
+ background-color: #d9edf7;
+}
+.table-hover .table-info:hover {
+ background-color: #c4e3f3;
+}
+.table-hover .table-info:hover > td,
+.table-hover .table-info:hover > th {
+ background-color: #c4e3f3;
+}
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+ background-color: #fcf8e3;
+}
+.table-hover .table-warning:hover {
+ background-color: #faf2cc;
+}
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+ background-color: #faf2cc;
+}
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+ background-color: #f2dede;
+}
+.table-hover .table-danger:hover {
+ background-color: #ebcccc;
+}
+.table-hover .table-danger:hover > td,
+.table-hover .table-danger:hover > th {
+ background-color: #ebcccc;
+}
+.thead-inverse th {
+ color: #fff;
+ background-color: #292b2c;
+}
+.thead-default th {
+ color: #464a4c;
+ background-color: #eceeef;
+}
+.table-inverse {
+ color: #fff;
+ background-color: #292b2c;
+}
+.table-inverse th,
+.table-inverse td,
+.table-inverse thead th {
+ border-color: #fff;
+}
+.table-inverse.table-bordered {
+ border: 0;
+}
+.table-responsive {
+ display: block;
+ width: 100%;
+ overflow-x: auto;
+ -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.table-responsive.table-bordered {
+ border: 0;
+}
+
+/** END OF TABLE */
+
+
+
+
+
+/** ALERT */
+
+.paypite-form .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.paypite-form .alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+/** END OF ALERT */
+
+/* END OF BOOTSTRAP-LIKE */
